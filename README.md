@@ -1,10 +1,10 @@
-# 👁️ Face Recognition System (DeepFace + OpenCV)
+# Face Recognition System (DeepFace + OpenCV)
 
 Gerçek zamanlı kamera üzerinden yüz tanıma yapan, embedding tabanlı face recognition sistemi.
 
 ---
 
-## 🚀 Özellikler
+## Özellikler
 
 - Gerçek zamanlı webcam yüz tanıma
 - CNN tabanlı embedding (ArcFace / FaceNet)
@@ -52,7 +52,7 @@ project/
 
 ---
 
-## ⚙️ Kurulum
+## Kurulum
 
 ### 1. Repository clone
 
@@ -91,6 +91,13 @@ dataset/
 ```
 
 ### 5. Embed Ekleme
+
+embeddings/ klasörü içine embeddings.pkl dosyası oluştur:
+
+```bash
+embeddings/
+├── embeddings.pkl/
+```
 
 ```bash
 python src/generate_embeddings.py
