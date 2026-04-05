@@ -9,16 +9,16 @@ Gerçek zamanlı kamera üzerinden yüz tanıma yapan, embedding tabanlı face r
 - Gerçek zamanlı webcam yüz tanıma
 - CNN tabanlı embedding (ArcFace / FaceNet)
 - Dataset tabanlı kişi tanıma
-- 📊 Cosine similarity ile karşılaştırma
-- 🟥 Unknown yüzler için kırmızı bounding box
-- 🟩 Tanınan kişiler için yeşil bounding box
-- ⚡ FPS göstergesi
-- 🧾 Confidence score bar
-- 🧠 Basit tracking (IoU tabanlı)
+- Cosine similarity ile karşılaştırma
+- Unknown yüzler için kırmızı bounding box
+- Tanınan kişiler için yeşil bounding box
+- FPS göstergesi
+- Confidence score bar
+- Basit tracking (IoU tabanlı)
 
 ---
 
-## 🏗️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - Python
 - OpenCV
@@ -28,7 +28,7 @@ Gerçek zamanlı kamera üzerinden yüz tanıma yapan, embedding tabanlı face r
 
 ---
 
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 ```bash
 project/
@@ -57,8 +57,8 @@ project/
 ### 1. Repository clone
 
 ```bash
-git clone https://github.com/serhatkoyuncu/Face-Recognition-CNN.git
-cd Face-Recognition-CNN
+git clone https://github.com/merve-meryem/Deep-Learning-Project.git
+cd Deep-Learning-Project
 ```
 
 ### 2. Virtual environment oluştur
@@ -81,7 +81,7 @@ dataset/ klasörü içine her kişi için ayrı klasör oluştur:
 
 ```bash
 dataset/
-├── Serhat/
+├── Meryem/
 │ ├── 1.jpg
 │ ├── 2.jpg
 │
